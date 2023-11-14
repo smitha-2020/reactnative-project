@@ -44,7 +44,7 @@ const StartGameScreen = () => {
             <CustomButton onPress={onResetPress}>Reset</CustomButton>
           </View>
           <View style={styles.buttonViewStyle}>
-            <CustomButton onPress={onConfirmPress}>Confirm</CustomButton>
+            <CustomButton onPress={confirmMessage}>Confirm</CustomButton>
           </View>
         </View>
       </View>
